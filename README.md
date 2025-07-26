@@ -1,3 +1,5 @@
+# MNIST Digit Classification
+
 This project implements a high-accuracy digit recognition pipeline using an ensemble of three custom-designed CNN models trained on the MNIST dataset. The final predictions are generated using soft voting, achieving 99.60% validation accuracy and 99.550% on Kaggle.
 ---
 
@@ -20,7 +22,7 @@ Model 3	99.40%
 Ensemble (Soft Voting)	99.60% ✅
 Kaggle Score	99.550% ✅
 
-##🛠️ How to Use
+## 🛠️ How to Use
 Clone the repo
 
 Install dependencies
