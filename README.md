@@ -11,11 +11,11 @@ This project implements a high-accuracy digit recognition pipeline using an ense
 
 ## 📊 Performance
 Model	Validation Accuracy
- - Model 1	99.31%
- - Model 2	99.48%
- - Model 3	99.40%
- - Ensemble (Soft Voting)	99.60% ✅
- - Kaggle Score	99.550% ✅
+ - Model 1	- 99.31%
+ - Model 2	- 99.48%
+ - Model 3	- 99.40%
+ - Ensemble (Soft Voting)	- 99.60% ✅
+ - Kaggle Score	- 99.550% ✅
 
 ## 🛠️ How to Use
 ### 1. Clone the Repository
