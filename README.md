@@ -5,22 +5,19 @@ This project implements a high-accuracy digit recognition pipeline using an ense
 
 ## 🧠 Model Architectures
 
-- 📦 Model 1
-Basic CNN with Conv → ReLU → BN → Dropout → FC
+- 📦 Model 1 - Basic CNN with Conv → ReLU → BN → Dropout → FC
 
-- 🧱 Model 2
-Deep CNN with stacked Conv-BN-ReLU blocks and adaptive pooling
+- 🧱 Model 2 - Deep CNN with stacked Conv-BN-ReLU blocks and adaptive pooling
 
-- 🌀 Model 3
-Mix of dilated and standard convolutions
+- 🌀 Model 3 - Mix of dilated and standard convolutions
 
 ## 📊 Performance
 Model	Validation Accuracy
-Model 1	99.31%
-Model 2	99.48%
-Model 3	99.40%
-Ensemble (Soft Voting)	99.60% ✅
-Kaggle Score	99.550% ✅
+-Model 1	99.31%
+-Model 2	99.48%
+-Model 3	99.40%
+-Ensemble (Soft Voting)	99.60% ✅
+-Kaggle Score	99.550% ✅
 
 ## 🛠️ How to Use
 Clone the repo
