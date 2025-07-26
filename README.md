@@ -3,13 +3,13 @@ This project implements a high-accuracy digit recognition pipeline using an ense
 
 ##🧠 Model Architectures
 
-📦 Model 1
+-📦 Model 1
 Basic CNN with Conv → ReLU → BN → Dropout → FC
 
-🧱 Model 2
+-🧱 Model 2
 Deep CNN with stacked Conv-BN-ReLU blocks and adaptive pooling
 
-🌀 Model 3
+-🌀 Model 3
 Mix of dilated and standard convolutions
 
 ##📊 Performance
