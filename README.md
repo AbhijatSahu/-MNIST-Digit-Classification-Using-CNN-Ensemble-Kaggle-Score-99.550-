@@ -13,39 +13,33 @@ This project implements a high-accuracy digit recognition pipeline using an ense
 
 ## 📊 Performance
 Model	Validation Accuracy
-- Model 1	99.31%
-- Model 2	99.48%
-- Model 3	99.40%
-- Ensemble (Soft Voting)	99.60% ✅
-- Kaggle Score	99.550% ✅
+- Model 1	- 99.31%
+- Model 2	- 99.48%
+- Model 3	- 99.40%
+- Ensemble (Soft Voting)	- 99.60% ✅
+- Kaggle Score	- 99.550% ✅
 
 ## 🛠️ How to Use
-Clone the repo
 
-Install dependencies
+### 1. Clone the Repository
 
-bash
-Copy
-Edit
+```bash
+git clone https://github.com/AbhijatSahu/MNIST-Digit-Classification
+
+```
+### 2. Install Dependencies
+```
 pip install -r requirements.txt
-Train & evaluate all models:
+```
 
-bash
-Copy
-Edit
-python ensemble_cnn.py
-Generate submission:
-
-submission.csv will be created for Kaggle upload
-
-🖼️ Data
+## 🖼️ Data
 Training data: train.csv (images + labels)
 
 Test data: test.csv (images only)
 
 Source: Kaggle Digit Recognizer
 
-🧪 Key Techniques
+## 🧪 Key Techniques
 Softmax outputs for soft voting
 
 Early stopping to prevent overfitting
