@@ -12,7 +12,7 @@ This project implements a high-accuracy digit recognition pipeline using an ense
 - 🌀 Model 3 - Mix of dilated and standard convolutions
 
 ## 📊 Performance
-Model	Validation Accuracy
+-Model	Validation Accuracy
 -Model 1	99.31%
 -Model 2	99.48%
 -Model 3	99.40%
