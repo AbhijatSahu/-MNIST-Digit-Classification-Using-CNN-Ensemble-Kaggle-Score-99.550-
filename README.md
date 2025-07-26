@@ -1,20 +1,15 @@
 This project implements a high-accuracy digit recognition pipeline using an ensemble of three custom-designed CNN models trained on the MNIST dataset. The final predictions are generated using soft voting, achieving 99.60% validation accuracy and 99.550% on Kaggle.
 
 🧠 Model Architectures
+
 📦 Model 1
 Basic CNN with Conv → ReLU → BN → Dropout → FC
-
-Strong generalization with 99.31% accuracy
 
 🧱 Model 2
 Deep CNN with stacked Conv-BN-ReLU blocks and adaptive pooling
 
-Best individual performance: 99.48%
-
 🌀 Model 3
 Mix of dilated and standard convolutions
-
-Achieved 99.40% accuracy individually
 
 📊 Performance
 Model	Validation Accuracy
